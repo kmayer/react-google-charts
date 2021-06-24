@@ -3,6 +3,7 @@ var React = require('react'),
     Home = require('./components/Home'),
     Examples = require('./components/Examples'),
     Menu = require('./components/Menu'),
+    createReactClass = require('create-react-class'),
 
     LineCharts = require('./components/Examples/LineCharts'),
 	ScatterCharts = require('./components/Examples/ScatterCharts'),
@@ -11,7 +12,7 @@ var React = require('react'),
 	BubbleCharts = require('./components/Examples/BubbleCharts'),
 	CodeHolder = require('./components/CodeHolder');
 
-var App = React.createClass({
+var App = createReactClass({
 
     mixins: [RouterMixin],
 
@@ -139,7 +140,7 @@ var BubbleChartData = require('./sample_data/BubbleChart');
 
 
 
-var App = React.createClass({
+var App = createReactClass({
 	
 	getInitialState: function() {
 		return {

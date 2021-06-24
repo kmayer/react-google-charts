@@ -1,11 +1,12 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 var Chart = require('react-google-charts').Chart;
 var AirPassengerData = require('../../sample_data/AirPassenger');
 var UKGasEmissionsData = require('../../sample_data/UKGasEmissions');
 var CodeHolder = require('../CodeHolder');
 
 
-var LineCharts = React.createClass({
+var LineCharts = createReactClass({
 	
 	getInitialState: function() {
 		return {

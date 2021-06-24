@@ -1,4 +1,5 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 var Chart = require('react-google-charts').Chart;
 
 
@@ -12,7 +13,7 @@ var CodeHolder = require('./CodeHolder');
 var Menu = require('./Menu');
 
 
-var Examples = React.createClass({
+var Examples = createReactClass({
 	
 	getInitialState: function() {
 		return {

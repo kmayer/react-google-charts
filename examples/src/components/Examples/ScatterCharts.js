@@ -1,9 +1,10 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 var Chart = require('react-google-charts').Chart;
 var ScatterChartData = require('../../sample_data/ScatterCharts');
 
 
-var ScatterCharts = React.createClass({
+var ScatterCharts = createReactClass({
 	
 	build_circle_scatter: function() {
 		var dataArray = [];

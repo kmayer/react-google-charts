@@ -1,9 +1,10 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 var Chart = require('react-google-charts').Chart;
 var BubbleChartData = require('../../sample_data/BubbleChart');
 
 
-var BubbleCharts = React.createClass({
+var BubbleCharts = createReactClass({
 
 	getInitialState: function() {
 		return {

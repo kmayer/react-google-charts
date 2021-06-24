@@ -1,8 +1,9 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 var Chart = require('react-google-charts').Chart;
 var BarChartData = require('../../sample_data/Barchart');
 
-var BarCharts = React.createClass({
+var BarCharts = createReactClass({
 	
 	getInitialState: function() {
 		return {
