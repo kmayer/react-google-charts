@@ -1,8 +1,9 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 var Chart = require('react-google-charts').Chart;
 var HistogramData = require('../../sample_data/Histogram');
 
-var Histograms = React.createClass({
+var Histograms = createReactClass({
 	
 	getInitialState: function() {
 		return {

@@ -1,8 +1,9 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 
 var $ = require('jquery');
 
-var CodeHolder = React.createClass({
+var CodeHolder = createReactClass({
 	getDefaultProps: function() {
 		return {
 			codeUrl:'',

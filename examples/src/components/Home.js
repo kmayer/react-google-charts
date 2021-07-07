@@ -1,7 +1,8 @@
 
 var React= require('react');
+var createReactClass = require('create-react-class');
 var $ = require('jquery');
-var Home = React.createClass({
+var Home = createReactClass({
 	getInitialState: function() {
 		return {
 			content_id : 'home',

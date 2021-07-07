@@ -1,4 +1,5 @@
 var React = require('react');
+var createReactClass = require('create-react-class');
 var GoogleChartLoader = require('./GoogleChartLoader');
 var DEFAULT_COLORS = require('../constants/DEFAULT_CHART_COLORS');
 
@@ -8,7 +9,7 @@ var generateUniqueId = function() {
 	return "reactgooglegraph" + uniqueId;
 };
 
-var Chart = React.createClass({
+var Chart = createReactClass({
 	chart: null,
 	wrapper: null,
 	hidden_columns: [],
